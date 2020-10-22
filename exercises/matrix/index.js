@@ -32,7 +32,9 @@
 //  ...repeat for other two sides
 
 function matrix(n) {
+
     let results = [];
+    
     for (let i = 0; i < n; i++){
         results.push([]);
     }
@@ -72,7 +74,7 @@ function matrix(n) {
         }
         startColumn++;
     }
-    return results;
+    return results; 
 }
 
 module.exports = matrix;
